@@ -1,0 +1,41 @@
+.main-wrap {
+  padding-top: 50px;
+  margin: auto;
+  width: 630px;
+  background-color: rgb(225, 235, 228);
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 12px;
+  outline: none;
+}
+
+.rect {
+  font-weight: 500;
+  margin-top: 50px;
+  height: 60px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgb(221, 214, 197);
+}
+
+.rect:hover {
+  background-color: rgba(50, 50, 50, 0.2);
+}
+
+.rect:active {
+  background-color: rgba(150, 150, 150, 0.6);
+}
+
+.to-right {
+  display: flex;
+  justify-content: flex-end;
+}
